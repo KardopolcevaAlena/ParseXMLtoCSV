@@ -1,0 +1,334 @@
+<ns3:PlaceList xmlns:ns2="http://lbs.maps.nokia.com/1.0/common" xmlns="http://lcs.lbs.maps.nokia.com/1.0/common" xmlns:ns3="http://lcs.lbs.maps.nokia.com/1.0/places">
+	<ns3:Place xmlns:ns2="http://lbs.maps.nokia.com/1.0/common" xmlns="http://lcs.lbs.maps.nokia.com/1.0/common" xmlns:ns3="http://lcs.lbs.maps.nokia.com/1.0/places">
+		<ns3:LocationList>
+			<Location primary="true" locationId="34588659">
+				<Address>
+					<ParsedList>
+						<Parsed languageCode="en" defaultLanguage="true">
+							<StreetName>
+								<BaseName>Francisco Villa</BaseName>
+								<StreetType before="true" attached="true">Avenida</StreetType>
+							</StreetName>
+							<HouseNumber>N/A</HouseNumber>
+							<CountryCode>USA</CountryCode>
+							<Admin>
+								<AdminLevel>
+									<Level2>State</Level2>
+									<Level3>County</Level3>
+									<Level4>District</Level4>
+									<Level5>City</Level5>
+								</AdminLevel>
+								<OrderLevel>
+									<Order1>California</Order1>
+									<Order2>Redlands</Order2>
+									<Builtup>San Bernardino</Builtup>
+								</OrderLevel>
+							</Admin>
+						</Parsed>
+					</ParsedList>
+				</Address>
+				<GeoPositionList>
+					<GeoPosition type="ROUTING">
+						<ns2:Latitude>25.25418</ns2:Latitude>
+						<ns2:Longitude>55.30372</ns2:Longitude>
+					</GeoPosition>
+				</GeoPositionList>
+			</Location>
+		</ns3:LocationList>
+		<ns3:Identity lastUpdatedTimeStamp="2012-10-26T14:36:03.646Z" isDeleted="false">
+			<PlaceId>784thrrd-ccb158afed0f46f6b1e895403b2bae84</PlaceId>
+			<QualityLevel>1</QualityLevel>
+		</ns3:Identity>
+		<ns3:Content>
+			<Base>
+				<NameList>
+					<Name>
+						<TextList>
+							<Text>
+								<BaseText type="OFFICIAL" languageCode="en" default="true">Main Shop</BaseText>
+							</Text>
+						</TextList>
+					</Name>
+				</NameList>
+				<CategoryList>
+					<Category categorySystem="find-places" primaryFlag="false">
+						<CategoryId>shop</CategoryId>
+					</Category>
+					<Category categorySystem="navteq-poi" primaryFlag="false">
+						<CategoryId>9567</CategoryId>
+						<CategoryName>
+							<Text languageCode="en">Specialty Store</Text>
+						</CategoryName>
+					</Category>
+					<Category categorySystem="navteq-lcms" primaryFlag="false">
+						<CategoryId>600-6900-0096</CategoryId>
+						<CategoryName>
+							<Text languageCode="en">Specialty Store</Text>
+						</CategoryName>
+					</Category>
+					<Category categorySystem="navteq-lcms" primaryFlag="false">
+						<CategoryId>600-6900-0000</CategoryId>
+						<CategoryName>
+							<Text languageCode="en">Other Shop</Text>
+						</CategoryName>
+					</Category>
+				</CategoryList>
+				<ContactList>
+					<Contact type="PHONE">
+						<ContactString>+97143553788</ContactString>
+						<AdditionalContactInfo>
+							<StandardNumber>+97143553788</StandardNumber>
+						</AdditionalContactInfo>
+					</Contact>
+				</ContactList>
+			</Base>
+		</ns3:Content>
+	</ns3:Place>
+	<ns3:Place xmlns:ns2="http://lbs.maps.nokia.com/1.0/common" xmlns="http://lcs.lbs.maps.nokia.com/1.0/common" xmlns:ns3="http://lcs.lbs.maps.nokia.com/1.0/places">
+		<ns3:LocationList>
+			<Location primary="true" locationId="34588432">
+				<Address>
+					<ParsedList>
+						<Parsed languageCode="en" defaultLanguage="true">
+							<StreetName>
+								<BaseName>4TA Av</BaseName>
+								<Suffix>S</Suffix>
+							</StreetName>
+							<HouseNumber>N/A</HouseNumber>
+							<CountryCode>CAN</CountryCode>
+							<Admin>
+								<AdminLevel>
+									<Level2>Province</Level2>
+									<Level4>Municipality</Level4>
+									<Level5>City</Level5>
+								</AdminLevel>
+								<OrderLevel>
+									<Order1>Ontario</Order1>
+									<Order2>Ottawa</Order2>
+									<Builtup>City 1</Builtup>
+								</OrderLevel>
+							</Admin>
+						</Parsed>
+					</ParsedList>
+				</Address>
+				<GeoPositionList>
+					<GeoPosition type="ROUTING">
+						<ns2:Latitude>25.25074</ns2:Latitude>
+						<ns2:Longitude>55.3327</ns2:Longitude>
+						<Altitude>23</Altitude>
+					</GeoPosition>
+				</GeoPositionList>
+			</Location>
+		</ns3:LocationList>
+		<ns3:Identity lastUpdatedTimeStamp="2012-10-26T14:36:43.634Z" isDeleted="false">
+			<PlaceId>784thrre-dfa545713eb540cb9079f6b589efc8d4</PlaceId>
+			<QualityLevel>1</QualityLevel>
+		</ns3:Identity>
+		<ns3:Content>
+			<Base>
+				<NameList>
+					<Name>
+						<TextList>
+							<Text>
+								<BaseText type="OFFICIAL" languageCode="fr" default="true">Pizza</BaseText>
+							</Text>
+						</TextList>
+					</Name>
+				</NameList>
+				<CategoryList>
+					<Category categorySystem="find-places" primaryFlag="false">
+						<CategoryId>shop</CategoryId>
+					</Category>
+					<Category categorySystem="navteq-poi" primaryFlag="false">
+						<CategoryId>9567</CategoryId>
+						<CategoryName>
+							<Text languageCode="en">Specialty Store</Text>
+						</CategoryName>
+					</Category>
+					<Category categorySystem="navteq-lcms" primaryFlag="false">
+						<CategoryId>600-6900-0096</CategoryId>
+						<CategoryName>
+							<Text languageCode="en">Specialty Store</Text>
+						</CategoryName>
+					</Category>
+					<Category categorySystem="navteq-lcms" primaryFlag="false">
+						<CategoryId>600-6900-0000</CategoryId>
+						<CategoryName>
+							<Text languageCode="en">Other Shop</Text>
+						</CategoryName>
+					</Category>
+				</CategoryList>
+				<ContactList>
+					<Contact type="PHONE">
+						<ContactString>+97142951545</ContactString>
+						<AdditionalContactInfo>
+							<StandardNumber>+97142951545</StandardNumber>
+						</AdditionalContactInfo>
+					</Contact>
+				</ContactList>
+			</Base>
+		</ns3:Content>
+	</ns3:Place>
+	<ns3:Place xmlns:ns2="http://lbs.maps.nokia.com/1.0/common" xmlns="http://lcs.lbs.maps.nokia.com/1.0/common" xmlns:ns3="http://lcs.lbs.maps.nokia.com/1.0/places">
+		<ns3:LocationList>
+			<Location primary="true" locationId="34606054">
+				<Address>
+					<ParsedList>
+						<Parsed languageCode="en" defaultLanguage="true">
+							<StreetName>
+								<BaseName>Acueduto</BaseName>
+								<StreetType before="true" attached="false">Calle</StreetType>
+								<Prefix>E</Prefix>
+							</StreetName>
+							<HouseNumber>33</HouseNumber>
+							<CountryCode>RUS</CountryCode>
+							<PostalCode></PostalCode>
+							<Admin>
+								<AdminLevel>
+									<Level2>Okrug</Level2>
+									<Level3>Rayon</Level3>
+									<Level4>Oblast'</Level4>
+									<Level5>City</Level5>
+								</AdminLevel>
+								<OrderLevel>
+									<Order1>Uzniy Federalniy</Order1>
+									<Order2>Noth Kaucasus</Order2>
+									<Order8>Rostovskay oblast'</Order8>
+									<Builtup>Taganrog</Builtup>
+								</OrderLevel>
+							</Admin>
+						</Parsed>
+					</ParsedList>
+				</Address>
+				<GeoPositionList>
+					<GeoPosition type="ROUTING">
+						<ns2:Latitude>25.38165</ns2:Latitude>
+						<ns2:Longitude>55.44901</ns2:Longitude>
+					</GeoPosition>
+				</GeoPositionList>
+			</Location>
+		</ns3:LocationList>
+		<ns3:Identity lastUpdatedTimeStamp="2012-10-26T14:37:27.298Z" isDeleted="false">
+			<PlaceId>784thx2m-0f20ac6176b64dec89cf23111d660807</PlaceId>
+			<QualityLevel>1</QualityLevel>
+		</ns3:Identity>
+		<ns3:Content>
+			<Base>
+				<NameList>
+					<Name>
+						<TextList>
+							<Text>
+								<BaseText type="OFFICIAL" languageCode="en" default="true">Magnit</BaseText>
+							</Text>
+						</TextList>
+					</Name>
+				</NameList>
+				<CategoryList>
+					<Category categorySystem="find-places">
+						<CategoryId>food-drink</CategoryId>
+					</Category>
+					<Category categorySystem="navteq-poi" primaryFlag="true">
+						<CategoryId>5400</CategoryId>
+						<CategoryName>
+							<Text languageCode="en">Grocery Store</Text>
+						</CategoryName>
+					</Category>
+					<Category categorySystem="navteq-lcms">
+						<CategoryId>600-6300-0066</CategoryId>
+						<CategoryName>
+							<Text languageCode="en">Grocery</Text>
+						</CategoryName>
+					</Category>
+					<Category categorySystem="navteq-lcms">
+						<CategoryId>600-6000-0000</CategoryId>
+						<CategoryName>
+							<Text languageCode="en">Other Convenience Store</Text>
+						</CategoryName>
+					</Category>
+				</CategoryList>
+				<ContactList>
+					<Contact type="PHONE">
+						<ContactString>+97167463861</ContactString>
+						<AdditionalContactInfo>
+							<StandardNumber>+97167463861</StandardNumber>
+						</AdditionalContactInfo>
+					</Contact>
+				</ContactList>
+			</Base>
+		</ns3:Content>
+	</ns3:Place>
+	<ns3:Place xmlns:ns2="http://lbs.maps.nokia.com/1.0/common" xmlns="http://lcs.lbs.maps.nokia.com/1.0/common" xmlns:ns3="http://lcs.lbs.maps.nokia.com/1.0/places">
+		<ns3:LocationList>
+			<Location primary="true">
+				<Address>
+					<ParsedList>
+						<Parsed languageCode="en" defaultLanguage="true">
+							<StreetName>
+								<BaseName>Jumeirah Beach Road</BaseName>
+							</StreetName>
+							<CountryCode>ARE</CountryCode>
+							<PostalCode></PostalCode>
+							<Admin>
+								<AdminLevel>
+									<Level4>Dubai</Level4>
+									<Level5>Jumeirah</Level5>
+								</AdminLevel>
+								<OrderLevel>
+									<Builtup>Dubai</Builtup>
+								</OrderLevel>
+							</Admin>
+						</Parsed>
+					</ParsedList>
+				</Address>
+				<GeoPositionList>
+					<GeoPosition type="ROUTING">
+						<ns2:Latitude>25.171406</ns2:Latitude>
+						<ns2:Longitude>55.190807</ns2:Longitude>
+					</GeoPosition>
+				</GeoPositionList>
+			</Location>
+		</ns3:LocationList>
+		<ns3:Identity lastUpdatedTimeStamp="2012-10-26T14:38:49.161Z" isDeleted="false">
+			<PlaceId>784thrpp-ab8f18a1e93842c5856c31d5f062fb1d</PlaceId>
+			<QualityLevel>1</QualityLevel>
+		</ns3:Identity>
+		<ns3:Content>
+			<Base>
+				<NameList>
+					<Name primaryFlag="true">
+						<TextList>
+							<Text>
+								<BaseText type="OFFICIAL" languageCode="en" default="true">Uptown Bar</BaseText>
+							</Text>
+						</TextList>
+					</Name>
+				</NameList>
+				<CategoryList>
+					<Category categorySystem="find-places" primaryFlag="true">
+						<CategoryId>restaurant</CategoryId>
+					</Category>
+					<Category categorySystem="navteq-lcms">
+						<CategoryId>100-1000-0000</CategoryId>
+						<CategoryName>
+							<Text languageCode="en">Other Restaurant</Text>
+						</CategoryName>
+					</Category>
+				</CategoryList>
+				<ContactList>
+					<Contact type="EMAIL">
+						<ContactString>jbhboxoffice@jumeirah.com</ContactString>
+					</Contact>
+					<Contact type="PHONE">
+						<ContactString>+97144068999</ContactString>
+						<AdditionalContactInfo>
+							<StandardNumber>+97144068999</StandardNumber>
+						</AdditionalContactInfo>
+					</Contact>
+					<Contact type="WEBADDRESS">
+						<ContactString>http://www.jumeirah.com</ContactString>
+					</Contact>
+				</ContactList>
+			</Base>
+		</ns3:Content>
+	</ns3:Place>
+</ns3:PlaceList>

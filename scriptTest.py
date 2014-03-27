@@ -28,12 +28,26 @@ def testCounterOfUnicWords(tag, word): # Test function, that uses tested functio
  		d2 = counterOfUnicWords(k.text, d)
  	return d2[word]
 
+def getListValues(tag): # Function returns list of values for the set tag 't'
+    strname = tree.findall(tag, namespaces=NSMAP)
+    lis = []
+    i = 0
+    for n in strname:
+        a = n.text in lis
+        if a == False:
+            lis.append(n.text)
+            i += 1
+    return lis        
 
 t = '//n:Category/n:CategoryId'
-w = '600-6900-0000'
 
 #Testing:
-if testCounterOfUnicWords(t, w) == countValueOfTag(t, w): 
-    print 'Test Passed'
-else: 
-    print 'Test Failed' 
+lis = getListValues(t)
+i=0
+while i < len(lis)-1:
+    if testCounterOfUnicWords(t, lis[i]) == countValueOfTag(t, lis[i]): 
+        print 'Test %s Passed' %(i+1)
+    else: 
+        print 'Test %s Failed' %(i+1)
+        print 'Failed object is: %s' %(lis[i])
+    i += 1  
